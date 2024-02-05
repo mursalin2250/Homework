@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="signup.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        h1{
+            font-family:montserrat;
+            text-align: center;
+            padding-top: 35px;
+            color: white;
+        }
+        body{
+            height: 750px;
+            width: 100%;
+            background-image: url("signup.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main{
+            height:30rem;
+            width: 26rem;
+            align-content: center;
+            border: 2px solid white;
+            margin-top: 115px;
+            display: inline-block;
+            margin-left: 33.5%;
+            
+
+        }
+        .inp{
+            font-family: poppins;
+            margin-top: 15px;
+            margin-left: 10%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 20px;
+            padding-right: 125px;
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: transparent;
+            
+        }
+        ::placeholder{
+            color: white;
+            font-size:15px;
+            text-align:left;
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            font-family: poppins;
+            
+        }
+        p{
+            font-family: poppins;
+            margin-left: 88px;
+            margin-top: 25px;
+            font-size: small;
+            color: white;
+        }
+        label{
+            font-family: poppins;
+            color: white;
+            font-size: small;
+            vertical-align: middle;
+        }
+        input[type="submit"]{
+            border: transparent;
+            font-family: poppins;
+            margin-left: 10%;
+            margin-top: 25px;
+            border-radius: 20px;
+            text-align: center;
+            padding: 7px 131px;
+        }
+        input[type="checkbox"]{
+            margin-left: 50px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Sign Up</h1>
+        <form>
+            <input type="text" name="name" placeholder="Username" class="inp"><br>
+            <input type="email" name="email" placeholder="Email" class="inp"><br>
+            <input type="password" name="password" placeholder="Password" class="inp"><br>
+            <input type="password" name="password" placeholder="Confirm Password" class="inp"><br>
+            <input type="checkbox" name="terms&conditions">
+            <label>Accept our  <a href="#">Terms & Conditions</a></label>
+            <input type="submit" value="Sign Up">
+            
+        </form>
+        <p>Already have an account? <a href="index.html">Sign in</a></p>
+    </div>
+</body>
+</html>
